@@ -4,6 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const fileUpload = require('express-fileupload');
 const bodyParser = require('body-parser');
+const logger = require('morgan');
 const path = require('path');
 const { swaggerUi, specs } = require('./src/docs/docs.swagger');
 
@@ -11,6 +12,7 @@ const app = express();
 
 app.use(fileUpload());
 app.use(cors());
+app.use(logger());
 
 app.use(express.static(path.join(__dirname, '/uploads')));
 app.use(bodyParser.urlencoded({ extended: false }));
