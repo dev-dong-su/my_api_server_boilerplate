@@ -1,19 +1,14 @@
 # ✨ API Server Boilerplate
 
 - [✨ API Server Boilerplate](#-api-server-boilerplate)
-- [🚗 run](#-run)
 - [🍎 Intro](#-intro)
     - [Authentication](#authentication)
     - [Validation](#validation)
     - [Docs](#docs)
     - [Env Example](#env-example)
+- [🚗 run](#-run)
 - [📚 Library](#-library)
 - [🎋 Structure](#-structure)
-
-# 🚗 run
-```
-yarn start
-```
 
 # 🍎 Intro
 ### Authentication
@@ -36,6 +31,12 @@ MONGODB_URL= mongodb connection url
 PORT=3000
 
 JWT_SECRET=anything
+```
+
+
+# 🚗 run
+```
+yarn start
 ```
 
 # 📚 Library
