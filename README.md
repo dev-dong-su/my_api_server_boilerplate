@@ -6,6 +6,7 @@
     - [Authentication](#authentication)
     - [Validation](#validation)
     - [Docs](#docs)
+    - [Env Example](#env-example)
 - [📚 Library](#-library)
 - [🎋 Structure](#-structure)
 
@@ -27,6 +28,15 @@ yarn start
 
 ### Docs
   * Swagger
+
+### Env Example
+```
+MONGODB_URL= mongodb connection url
+
+PORT=3000
+
+JWT_SECRET=anything
+```
 
 # 📚 Library
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
